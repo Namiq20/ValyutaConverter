@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav>
+        <div class="logo">
+            <img src="./images/logo.png" alt="bankLogo" class="bankLogo">
+        </div>
+        <ul>
+            <li><a href="#">БАНК</a></li>
+            <li><a href="#">БИЗНЕС</a></li>
+            <li><a href="#">ИНВЕСТИЦИИ</a></li>
+            <li><a href="#">СТРАХОВАНИЕ</a></li>
+            <li><a href="#">МОБАЙЛ</a></li>
+            <li><a href="#">ПУТЕШЕСТВИЯ</a></li>
+            <li><a href="#">ПУТЕШЕСТВИЯ</a></li>
+        </ul>
+        <div class="exitDiv">
+            <button class="exit">ВОЙТИ</button>
+        </div>
+    </nav>
+    <!-- Body part -->
+    <div class="container">
+        <div class="content">
+            <h1>Конвертер валют онлайн</h1>
+            <div class="twoBoxes">
+                <!-- left -->
+                <div class="left box">
+                    <p class="leftp firstp">У меня есть </p>
+                    <div class="valyuta-from">
+                        <button class="btn buttons" type="button">RUB</button>
+                        <button class="btn buttons" type="button">USD</button>
+                        <button class="btn buttons" type="button">EUR</button>
+                        <button class="btn buttons" type="button">GBP</button>
+                    </div>
+                    <div class="low-part">
+                        <input type="number" class="fromValue">
+                        <p class="leftConverter message">1 RUB = 0.0135 USD</p>
+                    </div>
+                </div>
+                <!-- right -->
+                <div class="right box">
+                    <p class="rightp firstp">Хочу приобрести</p>
+                    <div class="valyuta-to">
+                        <button class="btn2 buttons" type="button">RUB</button>
+                        <button class="btn2 buttons" type="button">USD</button>
+                        <button class="btn2 buttons" type="button">EUR</button>
+                        <button class="btn2 buttons" type="button">GBP</button>
+                    </div>
+                    <div class="low-part">
+                        <p class="toValue value">67.6685</p>
+                        <p class="rightConverter message">1 USD = 73.8896 RUB</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
