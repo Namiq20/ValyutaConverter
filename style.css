@@ -135,10 +135,35 @@ h1{
     outline: none;
     width: 100%;
 }
+.toValue{
+    width: 100%;
+    border: none;
+    outline: none;
+}
 .message {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     color: #C6C6C6;
     padding: 20px 0 5px 16px;
+}
+.active_left{
+    background-color: #833AE0;
+    color: #FFFFFF;
+}
+
+@media (min-width: 480px) and (max-width: 750px) {
+    nav ul{
+        display: none;
+    }
+    .twoBoxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        margin: auto;
+    }
+    .right {
+        margin: auto;
+    }
 }
